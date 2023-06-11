@@ -11,13 +11,11 @@ b)  Make a slider bar using Material UI library and enable it so that a user can
 
 
 c)  Convert the following into a functional component tsx file in React:
-
-
- document.querySelector(".input").addEventListener("input", event => {
-
+```ruby
+document.querySelector(".input").addEventListener("input", event => {
                 keyboard.setInput(event.target.value);
-
 });
+```
 
 
 d)  Create a data class in Kotlin that is serializable with Kotlinx serialization and has an enum parameter.
